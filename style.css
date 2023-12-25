@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body{
+    background-color: #000e2b;
+    font-family: "Open Sans", sans-serif;
+}
+
+#conteiner{
+    border-radius: 1rem;
+    color: #f3efef;
+    background-color: rgb(31, 30, 30);
+    box-shadow: 0px 10px 40px #000;
+}
+
+img{
+    border: solid 4px #fff;
+}
+
+img::selection{
+    color: #000;
+    background-color: #fff;
+}
+
+.text{
+    font-size: 14pt;
+}
+
+p::selection{
+    color: #000;
+    background-color: #fff;
+}
+
+h2::selection{
+    color: #000;
+    background-color: #fff;
+}
+
+li{
+    font-weight: bold;
+    border-radius: 0.5rem;
+    box-shadow: 5px 2px 10px #000;
+    transition: all 0.5s;
+ }
+
+ li::selection{
+    color: #000;
+    background-color: #fff;
+}
+
+a{
+    color:#fff;
+text-decoration: none;
+}
+
+a::selection{
+    color: #000;
+    background-color: #fff;
+}
+
+#name{
+    font-size: 13pt;
+    font-weight: bold;
+}
+
+#status{
+    font-size: 13pt;
+}
+
+
+#git{
+    background-color: #000;
+}
+
+#insta{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+#dis{
+    background-color:#7289da
+}
+
+#html{
+    background-color: rgb(255, 51, 0);
+}
+
+#css{
+    background-color: rgb(0, 167, 251);
+}
+
+#js{
+    color:#000;
+    background-color: #ffff00;
+}
+
+li:hover{
+    box-shadow: 0px 0px 15px #ffffff;
+}
